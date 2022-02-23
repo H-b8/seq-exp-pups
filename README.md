@@ -10,5 +10,6 @@
 7. Make associations in each model
 8. `sequelize db:migrate`
 9. `sequelize seed: generate --name demo-pups`
+10. `sequelize db:seed:all`
 8. Write CRUD
 9. Test in Postman
