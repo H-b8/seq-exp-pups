@@ -17,14 +17,8 @@ module.exports = {
       breed: {
         type: Sequelize.STRING
       },
-      ownerId: {
-        type: Sequelize.INTEGER,
-        onDelete: 'CASCADE',
-        references: {
-          model: 'owner',
-          key: 'id',
-          as: 'ownerId'
-        }
+      owner_id: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,
